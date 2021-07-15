@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Estacion Meteorológica IES Gregorio Prieto</title>
+        <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" />
+        <link href="static/styles.css" rel="stylesheet" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>
+    </head>
+    <body class="sb-nav-fixed">
+      <%- include('partials/header') %>
+      <div id="layoutSidenav">
+          <%- include('partials/menu') %>
+            <div id="layoutSidenav_content">
+                <main>
+                    <div class="container-fluid px-4">
+                        <h1 class="mt-4">Estación meteorológica</h1>
+                        <ol class="breadcrumb mb-4">
+                            <li class="breadcrumb-item active"></li>
+                        </ol>
+                        <p class="breadcrumb-item active">El proyecto consiste en la construcción de una estación meteorológica con envío de datos para el estudio del cambio climático a la Escuela de Caminos de Ciudad Real de la Universidad de Castilla La Mancha.
+
+                            En el desarrollo del proyecto están participando los siguientes cursos:                
+                            </p>
+                        <br><br>
+                        <div class="card mb-4">
+                            <div class="card-header grupos">
+                                <i class="fas fa-table me-1"></i>
+                                1º Bachillerato de Ciencias: 
+                            </div>
+                            <div class="card-body">
+                               El proyecto está siendo coordinado desde el departamento de Física y Química, con el alumnado de 1º de Bachillerato de Ciencias y el de FP Básica de Electricidad y Electrónica, los cuales se han encargado de diseñar, imprimir con la impresora 3D y pintar los soportes y el balancín de la estación meteorológica.
+                               <br><br><img class="rounded mx-auto" src="static/images/steam1.jpeg">
+                            </div>
+                        </div>
+                        <div class="card mb-4">
+                            <div class="card-header grupos">
+                                <i class="fas fa-table me-1"></i>
+                                1º FP Básica de Mantenimiento Vehículos:
+                            </div>
+                            <div class="card-body">
+                                Son los encargados de construir la caja de abrigo que albergará la estación meteorológica, para lo cual están construyendo una escultura homenaje a los héroes contra el Covid, llamada «El balón de la esperanza» donde se integrará la estación meteorológica.
+                                <div class="row row-cols-1 row-cols-md-2 g-4">
+                                    <div class="col"><br>
+                                      <div class="card">
+                                        <img src="static/images/steam7.jpeg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                          <h5 class="card-title"> </h5>
+                                          <p class="card-text"> </p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col"><br>
+                                      <div class="card">
+                                        <img src="static/images/steam3.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                          <h5 class="card-title"> </h5>
+                                          <p class="card-text"> </p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col">
+                                      <div class="card">
+                                        <img src="static/images/steam4.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                          <h5 class="card-title"> </h5>
+                                          <p class="card-text"> </p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col">
+                                      <div class="card">
+                                        <img src="static/images/steam5.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                          <h5 class="card-title"> </h5>
+                                          <p class="card-text"> </p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-4">
+                            <div class="card-header grupos">
+                                <i class="fas fa-table me-1"></i>
+                                1º Grado Medio de Instalaciones de Telecomunicaciones y 2º Grado Superior de Sistemas de Telecomunicaciones e Informáticos:
+                            </div>
+                            <div class="card-body">
+                                Se encargan de la parte electrónica de la estación meteorológica y de la programación del Arduino con controlará el funcionamiento del sistema y la conexión a la Universidad para el envío de datos.
+                                <div class="row row-cols-1 row-cols-md-2 g-4">
+                                    <div class="col"><br>
+                                      <div class="card">
+                                        <img src="static/images/steam9.jpeg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                          <h5 class="card-title"> </h5>
+                                          <p class="card-text"> </p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col"><br>
+                                      <div class="card">
+                                        <img src="static/images/steam10.jpeg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                          <h5 class="card-title"> </h5>
+                                          <p class="card-text"> </p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-4">
+                            <div class="card-header grupos">
+                                <i class="fas fa-table me-1"></i>
+                                1º Y 2º Programa Específico de Actividades Auxiliares de Viveros, Jardines y Centros de Jardinería:
+                            </div>
+                            <div class="card-body">
+                                Es el encargado la decoración floral del balcón y de la automatización del riego de dicha ornamentación.
+                                <div class="row row-cols-1 row-cols-md-2 g-4">
+                                    <div class="col"><br>
+                                      <div class="card">
+                                        <img src="static/images/steam11.jpeg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                          <h5 class="card-title"> </h5>
+                                          <p class="card-text"> </p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col"><br>
+                                      <div class="card">
+                                        <img src="static/images/steam12.jpeg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                          <h5 class="card-title"> </h5>
+                                          <p class="card-text"> </p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mb-4">
+                            <div class="card-header grupos">
+                                <i class="fas fa-table me-1"></i>
+                                1º Grado Superior de Desarrollo de Aplicaciones Multiplataforma:
+                            </div>
+                            <div class="card-body">
+                                Este curso es el encargado de recibir los datos de la estación meteorológica y almacenarlos en un servidor interno y crear este sitio web para compartirlos con otros departamentos y otras instituciones.
+                                <div class="row row-cols-1 row-cols-md-2 g-4">
+                                    <div class="col"><br>
+                                      <div class="card">
+                                        <img src="static/images/steam13.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                          <h5 class="card-title"> </h5>
+                                          <p class="card-text"> </p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col"><br>
+                                      <div class="card">
+                                        <img src="static/images/steam14.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                          <h5 class="card-title"> </h5>
+                                          <p class="card-text"> </p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+                <%- include('partials/footer') %>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+        <script src="static/scripts.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" crossorigin="anonymous"></script>
+        <script src="static/chart-area-demo.js"></script>
+        <script src="static/chart-bar-demo.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest" crossorigin="anonymous"></script>
+        <script src="static/datatables-simple-demo.js"></script>
+    </body>
+</html>
